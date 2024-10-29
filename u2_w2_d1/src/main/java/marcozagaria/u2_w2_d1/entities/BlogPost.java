@@ -4,8 +4,6 @@ import lombok.Getter;
 import lombok.Setter;
 import lombok.ToString;
 
-import java.time.LocalDateTime;
-
 @Getter
 @Setter
 @ToString
@@ -14,10 +12,10 @@ public class BlogPost {
     private String categoria;
     private String titolo;
     private String contenuto;
-    private LocalDateTime tempoDiLettura;
+    private String tempoDiLettura;
     private String cover;
 
-    public BlogPost(String categoria, String titolo, String contenuto, LocalDateTime tempoDiLettura) {
+    public BlogPost(String categoria, String titolo, String contenuto, String tempoDiLettura) {
         this.categoria = categoria;
         this.titolo = titolo;
         this.contenuto = contenuto;

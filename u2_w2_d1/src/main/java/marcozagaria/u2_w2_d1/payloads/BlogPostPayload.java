@@ -5,8 +5,6 @@ import lombok.Getter;
 import lombok.Setter;
 import lombok.ToString;
 
-import java.time.LocalDateTime;
-
 @Getter
 @Setter
 @ToString
@@ -15,5 +13,5 @@ public class BlogPostPayload {
     private String categoria;
     private String titolo;
     private String contenuto;
-    private LocalDateTime tempoDiLettura;
+    private String tempoDiLettura;
 }
